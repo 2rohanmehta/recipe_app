@@ -1,0 +1,295 @@
+.upload-page {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.upload-page button {
+  background-image: linear-gradient(to right, #c21500 0%, #ffc500  51%, #c21500  100%);
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  display: block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.upload-page button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.upload-page h1 {
+  text-align: center;
+  color: #FF1A1A;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Oswald', sans-serif;
+}
+.upload-page .icon {
+  height: 2rem;
+  display: inline;
+  margin-right: 1rem;
+  margin-bottom: 5px;
+}
+.upload-page .icon-special {
+  height: 2.5rem;
+  display: inline;
+  margin-right: 1rem;
+  margin-bottom: 10px;
+}
+.upload-page h2 {
+  color: #FF1A1A;
+  font-size: 2rem;
+  margin-top: 48px;
+  margin-bottom: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+.upload-page .recipe-title-label {
+  color: #FF1A1A;
+  font-size: 2rem;
+  margin-bottom: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.upload-page .step-form {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.upload-page .submit-form {
+  text-align: center;
+}
+#submitButton {
+  width: 20%;
+  margin-top: 20px;
+  background-image: linear-gradient(to right, #c21500 0%, #ffc500  51%, #c21500  100%);
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  display: block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#submitButton:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.upload-page input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+#steps {
+  list-style: none;
+  padding: 0;
+}
+
+#steps li {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 16px 0;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+#steps li h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px 4px 0 0;
+  margin: 0 -20px 20px -20px;
+}
+
+#steps li p {
+  margin: 10px 0;
+  overflow-wrap: break-word;
+}
+
+#steps li img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* specifically for the delete step buttons */
+#steps li div button {
+  background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+#steps li div button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+#tags {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#tags li {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.tag-container {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.upload-page .tag-container .tag-button {
+  background-color: #e53935;
+  color: #fff;
+  border: none;
+  padding: 4px 6px;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.upload-page .tag-container .tag-button:hover {
+  background-color: #c62828;
+}
+
+.newline {
+  display: block; /* Ensures the element is treated as a block-level element, starting on a new line */
+  color: #FF1A1A;
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+.coverImageContainer {
+  max-width: 60%;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.coverImageContainer img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0; 
+  max-height: 40vh; 
+} 
+
+.stepImageContainer {
+  max-width: 60%; /* Adjust the max-width as needed */
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.stepImageContainer img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0;
+  max-height: 40vh; /* Adjust the max-height as needed */
+}
+
+.ingredient-table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+.ingredient-table th, .ingredient-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.ingredient-table th {
+  background-color: #f2f2f2;
+}
+
+.ingredient-table td {
+  background-color: #fff;
+}
+
+
+.upload-box {
+  border: 2px dashed #ccc;
+  padding: 8px;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 16px;
+}
+.image-label {
+  display: block;
+  cursor: pointer;
+}
+.upload-icon-container {
+  display: inline-block;
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+.upload-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 24px;
+  background-color: #888;
+  border-radius: 4px;
+}
+.upload-text {
+  font-weight: bold;
+  font-size: 16px;
+  color:#ccc;
+  font-family: 'Roboto', sans-serif;
+}
+.file-input {
+  display: visible;
+}
+.uploaded {
+  background-color: #4caf50; /* Green color */
+}
